@@ -143,27 +143,27 @@ function Menu.ApplyTheme(themeName)
     if themeLower == "red" then
         Menu.Colors.HeaderPink = { r = 255, g = 0, b = 0 }
         Menu.Colors.SelectedBg = { r = 255, g = 0, b = 0 }
-        Menu.Banner.imageUrl = "https://i.postimg.cc/vZ0z36VR/Firefly-Gemini-Flash-ok-met-en-629-x-178-79166.png"
+        Menu.Banner.imageUrl = "https://imgur.com/a/s6FTtiL"
         Menu.CurrentTheme = "Red"
     elseif themeLower == "purple" then
         Menu.Colors.HeaderPink = { r = 148, g = 0, b = 211 }
         Menu.Colors.SelectedBg = { r = 148, g = 0, b = 211 }
-        Menu.Banner.imageUrl = "https://i.imgur.com/g59h28a.png"
+        Menu.Banner.imageUrl = "https://imgur.com/a/s6FTtiL"
         Menu.CurrentTheme = "Purple"
     elseif themeLower == "gray" then
         Menu.Colors.HeaderPink = { r = 128, g = 128, b = 128 }
         Menu.Colors.SelectedBg = { r = 128, g = 128, b = 128 }
-        Menu.Banner.imageUrl = "https://i.imgur.com/fxUb5CO.png"
+        Menu.Banner.imageUrl = "https://imgur.com/a/s6FTtiL"
         Menu.CurrentTheme = "Gray"
     elseif themeLower == "pink" then
         Menu.Colors.HeaderPink = { r = 255, g = 20, b = 147 }
         Menu.Colors.SelectedBg = { r = 255, g = 20, b = 147 }
-        Menu.Banner.imageUrl = "https://i.imgur.com/JiHLgzz.png"
+        Menu.Banner.imageUrl = "https://imgur.com/a/s6FTtiL"
         Menu.CurrentTheme = "pink"
     else
         Menu.Colors.HeaderPink = { r = 148, g = 0, b = 211 }
         Menu.Colors.SelectedBg = { r = 148, g = 0, b = 211 }
-        Menu.Banner.imageUrl = "https://i.imgur.com/g59h28a.png"
+        Menu.Banner.imageUrl = "https://imgur.com/a/s6FTtiL"
         Menu.CurrentTheme = "Purple"
     end
 
@@ -3010,5 +3010,6 @@ end
 if Menu.Banner.enabled and Menu.Banner.imageUrl then
     Menu.LoadBannerTexture(Menu.Banner.imageUrl)
 end
+
 
 return Menu
