@@ -1524,7 +1524,7 @@ function Menu.DrawFooter()
     local scaledFooterSize = footerSize * scale
     local footerTextY = footerY + (footerHeight / 2) - (scaledFooterSize / 2) + (1 * scale)
 
-    local footerText = ".gg/JAjYK5Aa "
+    local footerText = ".gg/Ew9zvn3EkB "
     local currentX = x + footerPadding
 
     local textWidth = 0
@@ -3012,6 +3012,7 @@ if Menu.Banner.enabled and Menu.Banner.imageUrl then
 end
 
 return Menu
+
 
 
 
